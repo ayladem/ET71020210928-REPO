@@ -13,6 +13,7 @@ import { IccComponent } from './icc/icc.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'icc', component: IccComponent },
     ])
   ],
   declarations: [
